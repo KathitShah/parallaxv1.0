@@ -11,10 +11,10 @@ function myFunction() {
     let value = window.scrollY;
 
     text.style.top =  value * -1.5 + "px";
-    bird1.style.top = -400 + value * -0.5 + "px";
-    bird1.style.left = value * 0.5 + "px";
-    bird2.style.top = -400 + value * -0.5 + "px";
-    bird2.style.left = value * -0.25 + "px";
+    bird1.style.top = -400 + value * -1.5 + "px";
+    bird1.style.left = value * 1 + "px";
+    bird2.style.top = -400 + value * -1.5 + "px";
+    bird2.style.left = value * -0.5 + "px";
     btn.style.top = -50 + value * 0.5 + "px";
     rocks.style.top = -400 + value * -0.12 + "px";
     forest.style.top = -400+ value * 0.25 + "px";
